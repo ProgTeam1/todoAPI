@@ -7,7 +7,7 @@ app.use(cors({ origin: true }));
 
 // // Create and Deploy Your First Cloud Functions
 // // https://firebase.google.com/docs/functions/write-firebase-functions
-var serviceAccount = require("./fire-api-6ba02-firebase-adminsdk-fd7kl-8c80dda332.json");
+var serviceAccount = require("ACCOUNT-API-KEY-JSON-FILE");
 
 admin.initializeApp({
     credential: admin.credential.cert(serviceAccount),
